@@ -1,0 +1,224 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif; /* Futuristic font for headings */
+}
+
+p {
+    font-family: 'Roboto', sans-serif; /* Default font for paragraphs */
+}
+
+.hero-section {
+    background: url('./images/b2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .hero-section .bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+} */
+
+
+.hero-section .container {
+    border-radius: 10px;
+
+}
+
+/* .hero2-section {
+    background: url('./images/b2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero2-section .container {
+    border-radius: 10px;
+} */
+
+
+.text-white {
+    color: #fff !important;
+}
+
+.main-section {
+    background: url('images/bg.jpeg') no-repeat center center/cover;
+    background-size: cover;
+    min-height: 100vh; /* Ensure it covers the viewport height */
+}
+
+
+.intro-section h1, .intro-section p {
+    color: #aaccf8; /* White text color for heading and paragraph */
+}
+
+
+.album-section {
+    background: url('./images/bg.jpeg') no-repeat center center/cover;
+    background-size: cover;
+    padding-bottom: 50px !important;
+    padding-top: 0 !important;
+    min-height: 100vh; /* Ensure it covers the viewport height */
+}
+
+.card {
+    background: url('https://static.vecteezy.com/system/resources/previews/007/076/713/original/gradient-navy-blue-light-background-free-vector.jpg') no-repeat center center/cover;
+    color: #fff;
+    border: none; /* Remove any default borders */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for shadow and scaling */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Ensure the shadow does not overflow outside the rounded corners */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(3, 3, 92, 0.8); /* Dark blue shadow with more intensity */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover; /* Ensure the image covers the card without distortion */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+
+/*MISCONCEPTION*/
+
+.misconceptions-section {
+    background: url('images/bg.jpeg') no-repeat center center/cover;
+    color: #fff; /* White text color for all text inside this section */
+    padding: 50px 0;
+}
+
+.misconceptions-section h2 {
+    color: #fff; /* White color for the section heading */
+}
+
+.feature-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background to feature icons for better contrast */
+}
+
+.feature h3, .feature p {
+    color: #fff; /* Ensure text inside feature items is white */
+}
+
+/*Use*/
+.use-section {
+    background: url('/images/bg.jpeg') no-repeat center center/cover;
+    color: #fff; /* White text color for all text inside this section */
+    padding: 50px 0;
+}
+/*Goal*/
+.goal-section {
+    background: url('./images/bg.jpeg') no-repeat center center/cover;
+    color: #fff; /* White text color for all text inside this section */
+    padding: 50px 0;
+}
+
+
+/*Carousel*/
+
+.carousel-container {
+    background-image: url('./images/bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+
+.unique-section {
+    background-image: url('./images/bg.jpeg'); /* Replace with your desired background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color */
+    height: 45vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Final Section Styles */
+.final-section {
+    background-image: url('./images/bg.jpeg'); /* Replace with your desired background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Feedback Button Styles */
+.btn-feedback {
+    background: linear-gradient(135deg, #004e92 0%, #000428 50%, #004e92 100%); /* Initial gradient with lighter color on the edges */
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1.25rem;
+    transition: background 0.3s ease;
+}
+
+.btn-feedback:hover {
+    background: linear-gradient(135deg, #000428 0%, #004e92 50%, #000428 100%); /* Gradient on hover with lighter color in the center */
+    color: #fff;
+}
+
+
+/* Footer Styles */
+/* Footer Styles */
+.footer {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/007/076/713/original/gradient-navy-blue-light-background-free-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .footer .footer-text {
+    font-size: 1em;
+  }
+  
+  .footer .footer-icons {
+    display: flex;
+    gap: 1em;
+  }
+  
+  .footer .social-icon {
+    width: 1.5em;
+    height: 1.5em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .footer .social-link:hover .social-icon {
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgb(41, 133, 238); /* Dark blue shadow */
+  }
+  
